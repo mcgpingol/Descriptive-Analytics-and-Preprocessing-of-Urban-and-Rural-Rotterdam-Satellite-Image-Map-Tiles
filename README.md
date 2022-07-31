@@ -1,0 +1,3 @@
+# Descriptive-Analytics-and-Preprocessing-of-Urban-and-Rural-Rotterdam-Satellite-Image-Map-Tiles
+
+By applying descriptive analytics through pyspark on AWS, the authors were able to determine various building densities within Rotterdam through different maptiles within the SpaceNet6 dataset. 57% of the tiles contained a building density categorized as rural, 37% contained a density categorized as suburban, and 6% contained a density categorized as urban. By applying Otsu and Li Thresholding, we are able to preprocess the map tiles in the dataset prior to running blob detection to identify the number of possible structures.
